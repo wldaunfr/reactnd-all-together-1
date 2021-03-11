@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import UserDashboard from './UserDashboard.js';
 
 /*
 This exercise will help you put together and practice all of the concepts you've
@@ -18,6 +19,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">ReactND - Coding Practice</h1>
         </header>
+        <UserDashboard />
       </div>
     );
   }
